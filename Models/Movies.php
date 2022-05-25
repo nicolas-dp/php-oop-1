@@ -34,4 +34,4 @@ $movie_y = new Movie(
 );
 
 
-//var_dump($movie_x, $movie_y);
+var_dump($movie_x, $movie_y);
