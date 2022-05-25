@@ -11,6 +11,7 @@ include __DIR__ . '/layout/head.php'; ?>
             <div class="card-body">
                 <h4><?= $movie->title; ?> </h4>
                 <p><?= $movie->overview; ?> </p>
+                <span>Voto: <?= $vote; ?></span>
             </div>
         </div>
     <?php endforeach; ?>
